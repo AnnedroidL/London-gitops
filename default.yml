@@ -14,13 +14,9 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Lorna_Fleet
+    org_name: Fleet
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
-  webhook_settings:
-`   activities_webhook:
-     enable_activities_webhook: true
-       destination_url: https://webhook.site/60af5135-5726-49b2-ab3-4c9e456a3c54
